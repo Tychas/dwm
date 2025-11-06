@@ -69,7 +69,7 @@ static const struct arg args[] = {
 
         {ram_used,     "| %s",              NULL}, 
         { run_command, "| %s",    "pamixer --get-volume-human"}, 
-       	{ keymap,      "|[ %s ] |",           NULL},
+       	{ keymap,      "|[ %s ]|",           NULL},
 	{ datetime,    "   %s ",    "  %a  %b  %d %R "},
 
 

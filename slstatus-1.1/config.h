@@ -68,9 +68,9 @@ static const struct arg args[] = {
 	/* function format          argument */
 
         {ram_used,     "| %s",              NULL}, 
-        { run_command, "|  %s", "pamixer --get-volume-human"}, 
-       	{ keymap,      "|[ %s ] ",           NULL},
-	{ datetime,    "| %s ",    "  %a  %b  %d %R "},
+        { run_command, "| %s",    "pamixer --get-volume-human"}, 
+       	{ keymap,      "|[ %s ]|",           NULL},
+	{ datetime,    "   %s ",    "  %a  %b  %d %R "},
 
 
 
